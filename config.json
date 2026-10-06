@@ -1,0 +1,6 @@
+{
+	"AppName": "GoBootstrapDemo",
+	"ServiceName": "gobootdemo",
+	"ServiceDesc": "Bootstrap Demo for go",
+	"WebServerAddr": ":8080"
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{.{ .AppName }.} - 欢迎页</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+<div class="page">
+    <div class="card">
+        <div class="logo">GO</div>
+        <h1>{.{ .Title }.}</h1>
+        <p class="subtitle">{.{ .SubTitle }.}</p>
+        <div class="divider"></div>
+        <ul class="info">
+            <li><span class="label">应用名称</span><span class="value">{.{ .AppName }.}</span></li>
+            <li><span class="label">当前版本</span><span class="value">{.{ .Version }.}</span></li>
+            <li><span class="label">服务器时间</span><span class="value">{.{ .BuildTime }.}</span></li>
+        </ul>
+        <div class="links">
+            <a href="/ping">/ping</a>
+            <a href="/health">/health</a>
+            <a href="/version">/version</a>
+        </div>
+    </div>
+    <p class="footer">Powered by Gin · GoBootstrapDemo</p>
+</div>
+</body>
+</html>
